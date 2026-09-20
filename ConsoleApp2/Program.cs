@@ -11,9 +11,9 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             #region Add a private string password = "secret"; field to a Book class. Try to print it from Main (outside the class). What happens, and why?
-            //Book ob1=new Book();
+            //Book ob1 = new Book();
             //Console.WriteLine(ob1.password);
-            // /*Compile time error Because the access modifier is private it cannot be accessed outside the class*/
+            ///*Compile time error Because the access modifier is private it cannot be accessed outside the class*/
             #endregion
 
             #region Add an internal int copiesInStock = 5; field to Book. Print it from Main. Does it compile? Why ?
@@ -58,7 +58,7 @@ namespace ConsoleApp2
             //Console.WriteLine(genre);
             #endregion
 
-            # region Given string genreText = "Mystery"; (not a valid Genre value), use Enum.TryParse() to attempt the conversion.Print "Unknown genre" if it fails.
+            #region Given string genreText = "Mystery"; (not a valid Genre value), use Enum.TryParse() to attempt the conversion.Print "Unknown genre" if it fails.
             //string genreText = "Mystery";
             //Genre genre;
             //if (Enum.TryParse<Genre>(genreText, out genre))
