@@ -51,6 +51,12 @@ namespace ConsoleApp2
             //string genrestring = genre.ToString();
             //Console.WriteLine(genrestring);
             #endregion
+
+            #region Given string genreText = "Science";, convert it into a Genre value using Enum.Parse() and  print the result.
+            //string genreText = "Science";
+            //Genre genre = Enum.Parse<Genre>(genreText);
+            //Console.WriteLine(genre);
+            #endregion
         }
     }
 }
