@@ -57,6 +57,19 @@ namespace ConsoleApp2
             //Genre genre = Enum.Parse<Genre>(genreText);
             //Console.WriteLine(genre);
             #endregion
+
+            #region Given string genreText = "Mystery"; (not a valid Genre value), use Enum.TryParse() to attempt the conversion.Print "Unknown genre" if it fails.
+            //string genreText = "Mystery";
+            //Genre genre;
+            //if (Enum.TryParse<Genre>(genreText, out genre))
+            //{
+            //    Console.WriteLine(genre);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Unknown genre");
+            //}
+            #endregion
         }
     }
 }
