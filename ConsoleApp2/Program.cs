@@ -27,6 +27,12 @@ namespace ConsoleApp2
             //ob3.Title = "aaaa";
             //Console.WriteLine(ob3.Title);
             #endregion
+
+            #region Declare an enum Genre { Fiction, NonFiction, Science }. Add a Genre property to Book, assign it Genre.Science, and print it.
+            //Book ob4= new Book();
+            //ob4.BookGenre = Genre.Science;
+            //Console.WriteLine(ob4.BookGenre);
+            #endregion
         }
     }
 }
