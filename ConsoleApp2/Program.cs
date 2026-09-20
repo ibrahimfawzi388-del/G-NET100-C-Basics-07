@@ -39,6 +39,12 @@ namespace ConsoleApp2
             //Console.WriteLine((int)Genre.NonFiction);
             //Console.WriteLine((int)Genre.Science);
             #endregion
+
+            #region Given int genreNumber = 1;, cast it into a Genre value and print the result.
+            //int genreNumber = 1;
+            //Genre genre = (Genre)genreNumber;
+            //Console.WriteLine(genre);
+            #endregion
         }
     }
 }
