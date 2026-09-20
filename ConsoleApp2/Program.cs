@@ -33,6 +33,12 @@ namespace ConsoleApp2
             //ob4.BookGenre = Genre.Science;
             //Console.WriteLine(ob4.BookGenre);
             #endregion
+
+            #region Using the Genre enum above, print the underlying int value of Genre.Fiction, Genre.NonFiction, and Genre.Science by casting each to int.
+            //Console.WriteLine((int)Genre.Fiction);
+            //Console.WriteLine((int)Genre.NonFiction);
+            //Console.WriteLine((int)Genre.Science);
+            #endregion
         }
     }
 }
