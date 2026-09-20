@@ -45,6 +45,12 @@ namespace ConsoleApp2
             //Genre genre = (Genre)genreNumber;
             //Console.WriteLine(genre);
             #endregion
+
+            #region Given Genre genre = Genre.Fiction;, convert it into a string using ToString() and print it.
+            //Genre genre = Genre.Fiction;
+            //string genrestring = genre.ToString();
+            //Console.WriteLine(genrestring);
+            #endregion
         }
     }
 }
