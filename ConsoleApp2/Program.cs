@@ -21,6 +21,12 @@ namespace ConsoleApp2
             //Console.WriteLine(ob2.copiesInStock);
             // /*it print 5 Because the access modifier is intrnal it allows the field to be accessed from any class within the same assembly.*/
             #endregion
+
+            #region Add a public string Title; field to Book. Set it and print it from Main.
+            //Book ob3=new Book();
+            //ob3.Title = "aaaa";
+            //Console.WriteLine(ob3.Title);
+            #endregion
         }
     }
 }
